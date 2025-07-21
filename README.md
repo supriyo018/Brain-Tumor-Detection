@@ -3,10 +3,18 @@
 Application Architecture
 
 • Frontend: HTML page (frontend.html) that allows users to upload an image for tumor detection.
+
+
 • Backend: Flask application that:
+
+
 o Receives image uploads.
+
+
 o Preprocesses the image.
-10
+
+
+
 o Uses a trained CNN model (VGG16 + custom layers) to classify the tumor.
 o Sends the prediction result and confidence back to the frontend.
 • Model: A fine-tuned VGG16 model with transfer learning, trained on four classes – glioma, meningioma,
