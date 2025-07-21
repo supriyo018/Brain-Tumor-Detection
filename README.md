@@ -1,6 +1,7 @@
 # Brain-Tumor-Detection
 
 Application Architecture
+
 • Frontend: HTML page (frontend.html) that allows users to upload an image for tumor detection.
 • Backend: Flask application that:
 o Receives image uploads.
