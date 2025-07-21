@@ -16,34 +16,58 @@ o Preprocesses the image.
 
 
 o Uses a trained CNN model (VGG16 + custom layers) to classify the tumor.
+
+
 o Sends the prediction result and confidence back to the frontend.
+
+
 • Model: A fine-tuned VGG16 model with transfer learning, trained on four classes – glioma, meningioma,
 pituitary, notumor.
+
+
 3.1.3.1 Dataset
+
+
 • Source: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
+
 The dataset was taken from Kaggle:
+
+
 Title: Brain Tumor MRI Dataset
+
+
 • Structure:
+
+
 The data set is properly organized into two main directories: Training and Testing.
+
+
 Each directory contains four subdirectories that correspond to various tumor categories: glioma, meningioma,
 notumor, and pituitary.
+
+
 • Categories (Designations)
+
+
 There are 4 classes in total.
+
+
 1. The glioma tumor is derived from the glial cells of the brain.
+
+
 2. Meningioma Tumor – Composed of the meninges (spinal cord and brain membrane).
+
+
 3. Pituitary Tumor – Found in the pituitary gland.
+
+
 4. No Tumor – Normal MRI scans with no indication of tumors.
 
 <img width="1305" height="598" alt="Screenshot 2025-04-14 at 2 31 02 PM" src="https://github.com/user-attachments/assets/b06805d0-c88e-4a79-9084-9f51631d9d2c" />
 
 
-• Number of Samples
-Table 3.3: No of samples
-Class Training Images Testing Images
-Glioma 1321 300
-Meningioma 1339 306
-Pituitary 1359 305
-No Tumor 1405 300
+
 
 OUTPUT:
 
